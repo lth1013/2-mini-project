@@ -1,0 +1,30 @@
+.h1 {
+    display: flex;
+    justify-content: center;
+    color: purple;
+}
+
+.p {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 
+    repeat(12,1fr);
+}
